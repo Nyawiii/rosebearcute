@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Product 1",
+        "sell_price": 200,
+        "discounted_price": 100,
+        "discount": "50%"
+    },
+    {
+        "id": 2,
+        "name": "Product 1",
+        "sell_price": 200,
+        "discounted_price": 100,
+        "discount": "50%"
+    },
+    {
+        "id": 2,
+        "name": "Product 1",
+        "sell_price": 200,
+        "discounted_price": 100,
+        "discount": "50%"
+    }
+]
