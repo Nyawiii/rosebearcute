@@ -3714,7 +3714,7 @@ footer .additional-info {
 }
 
 .product.bestseller {
-	border: 2px solid #ed2025
+	border: 2px solid #ed2025!important
 }
 
 .product.bestseller .product__discount {

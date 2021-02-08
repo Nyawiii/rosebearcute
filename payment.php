@@ -8,82 +8,12 @@
                 <div class="step__title">Select Order Quantity</div>
                 </div>
                 <div class="quantity-chooser no-installment">
-                <div class="products">
-                    <div class="product">
-                        <div class="product__top radio">
-                            <div class="product__left">
-                            <p class="product__name">
-                                1 x Roseal CuteBear
-                                <!---->
-                            </p>
-                            <p class="product__discount"><span>
-                                50%
-                                Discount
-                                </span> <span><span>₱ 2,354</span>
-                                / each
-                                </span>
-                            </p>
-                            </div>
-                            <div class="product__right">
-                            <span><span class="product__price">₱ 2,354</span> <span class="product__price product__price--old">₱ 4,708</span></span> <!---->
-                            </div>
-                        </div>
-                        <div class="recommened-element">
-                            Recommended Deal
-                        </div>
-                        <!---->
-                    </div>
-                    <div class="product bestseller">
-                        <div class="product__top radio">
-                            <div class="product__left">
-                            <p class="product__name">
-                                2 x Roseal CuteBear
-                                + 1
-                                <span class="uppercase">free</span>
-                            </p>
-                            <p class="product__discount"><span>
-                                67%
-                                Discount
-                                </span> <span><span>₱ 1,569</span>
-                                / each
-                                </span>
-                            </p>
-                            </div>
-                            <div class="product__right">
-                            <span><span class="product__price active">₱ 4,708</span> <span class="product__price product__price--old">₱ 14,124</span></span> <!---->
-                            </div>
-                        </div>
-                        <!----> 
-                        <div class="bestseller-element"><span>Best Seller</span></div>
-                    </div>
-                    <div class="product">
-                        <div class="product__top radio">
-                            <div class="product__left">
-                            <p class="product__name">
-                                3 x Roseal CuteBear
-                                + 2
-                                <span class="uppercase">free</span>
-                            </p>
-                            <p class="product__discount"><span>
-                                73%
-                                Discount
-                                </span> <span><span>₱ 1,297</span>
-                                / each
-                                </span>
-                            </p>
-                            </div>
-                            <div class="product__right">
-                            <span><span class="product__price">₱ 6,485</span> <span class="product__price product__price--old">₱ 23,540</span></span> <!---->
-                            </div>
-                        </div>
-                        <!----> <!---->
-                    </div>
+                <div class="products" id="products"></div>
+                
                 </div>
-                <!---->
-                </div>
-                <!---->
+                
             </section>
-            <!---->
+            
         </div>
         <div class="payment-steps__right-col">
             <section class="scroll-to-block  block-with-shadow">
@@ -95,27 +25,27 @@
                 <div class="payment-method payment-method--selected">
                     <div class="radio radio--selected">
                         <div class="radio__inner">
-                            <!----> 
+                             
                             <ul class="card-types">
                             <li>
-                                <img src="/assets/img/visa.svg" alt="Visa"> <!----> <!----> <!----> <!----> <!---->
+                                <img src="/assets/img/visa.svg" alt="Visa">     
                             </li>
                             <li>
-                                <!----> <img src="/assets/img/mastercard.svg" alt="MasterCard"> <!----> <!----> <!----> <!---->
+                                 <img src="/assets/img/mastercard.svg" alt="MasterCard">    
                             </li>
                             <li>
-                                <!----> <!----> <!----> <img src="/assets/img/maestro.svg" alt="Maestro"> <!----> <!---->
+                                   <img src="/assets/img/maestro.svg" alt="Maestro">  
                             </li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 </div>
-                <!----> 
+                 
         
                 <form class="payment_form">
                     <div>
-                        <!----> 
+                         
                         <section class="scroll-to-block">
                             <div class="step">
                                 <div class="step__number">Step 3:</div>
@@ -123,19 +53,19 @@
                             </div>
                             <div class="form-group">
                                 <div class="form-field">
-                                <input placeholder="First Name" value="" field="input" type="text" name="first_name" autocomplete="given-name" class="form-field__input"> <label class="form-field__label">First Name</label> <!---->
+                                <input placeholder="First Name" value="" field="input" type="text" name="first_name" id="firstname" autocomplete="given-name" class="form-field__input"> <label class="form-field__label">First Name</label> 
                                 </div>
                                 <div class="form-field">
-                                <input placeholder="Last Name" value="" field="input" type="text" name="last_name" autocomplete="family-name" class="form-field__input"> <label class="form-field__label">Last Name</label> <!---->
+                                <input placeholder="Last Name" value="" field="input" type="text" name="last_name" id="lastname" autocomplete="family-name" class="form-field__input"> <label class="form-field__label">Last Name</label> 
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="form-field">
-                                <input placeholder="Email" value="" field="input" type="text" name="email" class="form-field__input"> <label class="form-field__label">Email</label> <!---->
+                                <input placeholder="Email" value="" field="input" type="text" name="email" id="email" class="form-field__input"> <label class="form-field__label">Email</label> 
                                 </div>
                                 <div class="form-field">
-                                <div class="form-input phone-is-empty" name="phone">
-                                    <div class="iti iti--allow-dropdown">
+                                <div class="form-input phone-is-empty" name="phone" id="phone">
+                                    <!-- <div class="iti iti--allow-dropdown">
                                         <div class="iti__flag-container">
                                             <div class="iti__selected-flag" role="combobox" aria-owns="country-listbox" aria-expanded="false" tabindex="0" title="Philippines: +63" aria-activedescendant="iti-item-ph">
                                             <div class="iti__flag iti__ph"></div>
@@ -1075,10 +1005,10 @@
                                             </ul>
                                         </div>
                                         <input name="phone" type="tel" class="intl-tel-input form-field__input" autocomplete="off" placeholder="0905 123 4567" data-intl-tel-input-id="0">
-                                    </div>
-                                    <!---->
+                                    </div> -->
+                                    
                                 </div>
-                                <!----> <!---->
+                                 
                                 </div>
                             </div>
                         </section>
@@ -1249,21 +1179,29 @@
                                         <option value="Zambia">Zambia</option>
                                     </select>
                                     <div class="cs-container cs-container--value-set">
-                                        <button type="button" class="cs-button"><span class="cs-button__text">Philippines</span> <span class="cs-button__arrow"></span></button> <!---->
+                                        <button type="button" class="cs-button"><span class="cs-button__text">Philippines</span> <span class="cs-button__arrow"></span></button> 
                                     </div>
                                     <label class="form-field__label">Country</label>
                                 </div>
-                                <!----> <!---->
+                                 
                                 </div>
+                                
                                 <div class="form-field">
-                                <input placeholder="Town/City" value="" field="input" type="text" name="city" class="form-field__input"> <label class="form-field__label">Town/City</label> <!---->
+                                    <input placeholder="Town/City" value="" field="input" type="text" name="city" id="city" class="form-field__input"> <label class="form-field__label">Town/City</label> 
                                 </div>
                                 <div class="form-field form-field--full">
-                                <input placeholder="Street &amp; House Number" value="" field="input" type="text" name="address" maxlength="100" class="form-field__input"> <label class="form-field__label">Street &amp; House Number</label> <!---->
+                                    <input placeholder="Street &amp; House Number" value="" field="input" type="text" name="address" id="address" maxlength="100" class="form-field__input"> <label class="form-field__label">Street &amp; House Number</label> 
                                 </div>
-                                <!----> 
+                                 
                                 <div class="form-field">
-                                <input placeholder="Zip/Postal Code" value="" field="input" type="text" name="zip" class="form-field__input"> <label class="form-field__label">Zip/Postal Code</label> <!---->
+                                    <input placeholder="State" value="" field="input" type="text" name="state" id="state" class="form-field__input"> <label class="form-field__label">State</label> 
+                                </div>
+                                <div class="form-field">
+                                    <input placeholder="Zip/Postal Code" value="" field="input" type="text" name="zip" id="zip" class="form-field__input"> <label class="form-field__label">Zip/Postal Code</label> 
+                                </div>
+
+                                <div class="form-field" hidden>
+                                    <input placeholder="Customer IP" value="" field="input" type="text" name="customer_ip" id="customer_ip" class="form-field__input"> <label class="form-field__label">Customer IP</label> 
                                 </div>
                             </div>
                         </section>
@@ -1275,15 +1213,18 @@
                             <div>
                                 <div class="form-group">
                                 <div class="form-field form-field--full">
-                                    <span class="card-type default"></span> <input type="tel" name="cc_no" placeholder="Card Number" class="cc-number form-field__input"> <label class="form-field__label">Card Number</label> <!---->
+                                    <span class="card-type default"></span> <input type="tel" name="cc_no" id="cc_no" placeholder="Card Number" class="cc-number form-field__input"> <label class="form-field__label">Card Number</label> 
                                 </div>
                                 </div>
                                 <div class="form-group__two-col-card ">
                                 <div class="form-field">
-                                    <input type="tel" name="expiry_date" placeholder="MM / YYYY" class="cc-expire form-field__input"> <label class="form-field__label">MM / YYYY</label> <!---->
+                                    <input type="tel" name="expiry_date" id="exp_mo" placeholder="MM" class="cc-expire form-field__input" maxlength="2"> <label class="form-field__label">MM</label> 
+                                </div>
+                                <div class="form-field">
+                                    <input type="tel" name="expiry_date" id="exp_year" placeholder="YY" class="cc-expire form-field__input" maxlength="2"> <label class="form-field__label">MM</label> 
                                 </div>
                                 <div class="form-field" value="">
-                                    <span class="form-field__help"></span> <input type="tel" name="cc_cvv" placeholder="Security Code" class="cc-cvv form-field__input"> <label class="form-field__label">Security Code</label> <!---->
+                                    <span class="form-field__help"></span> <input type="tel" name="cc_cvv" id="cc_cvv" placeholder="Security Code" class="cc-cvv form-field__input"> <label class="form-field__label">Security Code</label> 
                                 </div>
                                 </div>
                             </div>
@@ -1295,7 +1236,7 @@
                                 <a href="/terms" target="_blank">Terms of Service</a></p>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn--submit btn--primary btn--disabled" disabled="disabled">Complete checkout</button>
+                        <button type="submit" class="btn btn--submit btn--primary btn--disabled" id="btn--submit" disabled="disabled">Complete checkout</button>
                     </div>
                     <div class="descriptor">Your purchases will appear as <strong>"rosecutebear442038089234"</strong> on your credit card statement.</div>
                     <div class="divider"><span>GUARANTEED SAFE CHECKOUT</span></div>
@@ -1323,5 +1264,5 @@
 
     <div class="v-portal" style="display: none;"></div>
     <div class="v-portal" style="display: none;"></div>
-    <!---->
+    
 </div>

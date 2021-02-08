@@ -37,3 +37,6 @@
 <!-- <script src="/assets/js/app.js"></script>
 <script src="/assets/js/manifest.js"></script>
 <script src="/assets/js/vendor.js"></script> -->
+<script src="//unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script> 
+<script src="/assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
