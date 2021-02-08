@@ -26,10 +26,8 @@
         </div>
 
         <div class="additional-info">
-                PANAMEEDIA OÜ,
-            Sõpruse pst 192, 13423 Tallinn Estonia,
-                +443308181118,
-            support@rosecutebear.com
+        Capricorn Innovations Limited: 1 Townsend Way Northwood, Middlesex HA6 1TG
+            &nbsp;&nbsp;support@paymentechnologies.co.uk
         </div> 
         
             <div class="copyright">Copyrights © 2018-2021 RoseCuteBear. All Rights Reserved.</div>
